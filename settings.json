@@ -1,0 +1,45 @@
+{
+  "editor.minimap.enabled": false,
+  "git.autofetch": true,
+  "editor.autoClosingOvertype": "never",
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "todohighlight.defaultStyle": {},
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "SOLUTION:",
+      "backgroundColor": "green",
+      "color": "#000",
+      "isWholeLine": false
+    },
+
+    {
+      "text": "QUESTION:",
+      "color": "white",
+      // "border": "1px solid red",
+      // "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "red"
+      //other styling properties goes here ...
+    },
+    {
+      "text": "//------------------------------------------------------------------------------------------------------------------",
+      "color": "yellow",
+      // "border": "1px solid red",
+      // "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,0.1)"
+      //other styling properties goes here ...
+    }
+  ],
+  "workbench.colorTheme": "Monokai Pro"
+}
